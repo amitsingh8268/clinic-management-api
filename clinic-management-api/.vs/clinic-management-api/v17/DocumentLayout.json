@@ -1,0 +1,84 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\application\\clinic-management-api\\clinic-management-api\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{38CCA466-2275-4A8C-85DE-34F3F1CEEBCA}|..\\ClinicManagement.Tests\\ClinicManagement.Tests.csproj|d:\\application\\clinic-management-api\\clinicmanagement.tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53FE8524-2DA5-4713-AAC4-A2F9A478DC9A}|..\\ClinicManagement.Infrastructure\\ClinicManagement.Infrastructure.csproj|d:\\application\\clinic-management-api\\clinicmanagement.infrastructure\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83BC717E-ED00-41F5-BEBD-A48DE77CFA2C}|..\\ClinicManagement.Domain\\ClinicManagement.Domain.csproj|d:\\application\\clinic-management-api\\clinicmanagement.domain\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{233191D6-2E69-4396-B5DC-AF89E8124D5E}|..\\ClinicManagement.Application\\ClinicManagement.Application.csproj|d:\\application\\clinic-management-api\\clinicmanagement.application\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "D:\\application\\clinic-management-api\\ClinicManagement.Tests\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "..\\ClinicManagement.Tests\\UnitTest1.cs",
+              "ToolTip": "D:\\application\\clinic-management-api\\ClinicManagement.Tests\\UnitTest1.cs",
+              "RelativeToolTip": "..\\ClinicManagement.Tests\\UnitTest1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-14T15:37:13.963Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "D:\\application\\clinic-management-api\\ClinicManagement.Infrastructure\\Class1.cs",
+              "RelativeDocumentMoniker": "..\\ClinicManagement.Infrastructure\\Class1.cs",
+              "ToolTip": "D:\\application\\clinic-management-api\\ClinicManagement.Infrastructure\\Class1.cs",
+              "RelativeToolTip": "..\\ClinicManagement.Infrastructure\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-14T15:35:45.733Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "D:\\application\\clinic-management-api\\ClinicManagement.Domain\\Class1.cs",
+              "RelativeDocumentMoniker": "..\\ClinicManagement.Domain\\Class1.cs",
+              "ToolTip": "D:\\application\\clinic-management-api\\ClinicManagement.Domain\\Class1.cs",
+              "RelativeToolTip": "..\\ClinicManagement.Domain\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-14T15:33:12.699Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "D:\\application\\clinic-management-api\\ClinicManagement.Application\\Class1.cs",
+              "RelativeDocumentMoniker": "..\\ClinicManagement.Application\\Class1.cs",
+              "ToolTip": "D:\\application\\clinic-management-api\\ClinicManagement.Application\\Class1.cs",
+              "RelativeToolTip": "..\\ClinicManagement.Application\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-14T15:28:16.94Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

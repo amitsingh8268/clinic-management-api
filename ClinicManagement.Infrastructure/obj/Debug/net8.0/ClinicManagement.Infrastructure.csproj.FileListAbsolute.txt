@@ -1,0 +1,12 @@
+D:\application\clinic-management-api\ClinicManagement.Infrastructure\bin\Debug\net8.0\ClinicManagement.Infrastructure.deps.json
+D:\application\clinic-management-api\ClinicManagement.Infrastructure\bin\Debug\net8.0\ClinicManagement.Infrastructure.dll
+D:\application\clinic-management-api\ClinicManagement.Infrastructure\bin\Debug\net8.0\ClinicManagement.Infrastructure.pdb
+D:\application\clinic-management-api\ClinicManagement.Infrastructure\obj\Debug\net8.0\ClinicManagement.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\application\clinic-management-api\ClinicManagement.Infrastructure\obj\Debug\net8.0\ClinicManagement.Infrastructure.AssemblyInfoInputs.cache
+D:\application\clinic-management-api\ClinicManagement.Infrastructure\obj\Debug\net8.0\ClinicManagement.Infrastructure.AssemblyInfo.cs
+D:\application\clinic-management-api\ClinicManagement.Infrastructure\obj\Debug\net8.0\ClinicManagement.Infrastructure.csproj.CoreCompileInputs.cache
+D:\application\clinic-management-api\ClinicManagement.Infrastructure\obj\Debug\net8.0\ClinicManagement.Infrastructure.sourcelink.json
+D:\application\clinic-management-api\ClinicManagement.Infrastructure\obj\Debug\net8.0\ClinicManagement.Infrastructure.dll
+D:\application\clinic-management-api\ClinicManagement.Infrastructure\obj\Debug\net8.0\refint\ClinicManagement.Infrastructure.dll
+D:\application\clinic-management-api\ClinicManagement.Infrastructure\obj\Debug\net8.0\ClinicManagement.Infrastructure.pdb
+D:\application\clinic-management-api\ClinicManagement.Infrastructure\obj\Debug\net8.0\ref\ClinicManagement.Infrastructure.dll
