@@ -10,3 +10,7 @@ D:\application\clinic-management-api\ClinicManagement.Application\obj\Debug\net8
 D:\application\clinic-management-api\ClinicManagement.Application\obj\Debug\net8.0\refint\ClinicManagement.Application.dll
 D:\application\clinic-management-api\ClinicManagement.Application\obj\Debug\net8.0\ClinicManagement.Application.pdb
 D:\application\clinic-management-api\ClinicManagement.Application\obj\Debug\net8.0\ref\ClinicManagement.Application.dll
+D:\application\clinic-management-api\ClinicManagement.Application\bin\Debug\net8.0\ClinicManagement.Domain.dll
+D:\application\clinic-management-api\ClinicManagement.Application\bin\Debug\net8.0\ClinicManagement.Domain.pdb
+D:\application\clinic-management-api\ClinicManagement.Application\obj\Debug\net8.0\ClinicManagement.Application.csproj.AssemblyReference.cache
+D:\application\clinic-management-api\ClinicManagement.Application\obj\Debug\net8.0\ClinicMa.5CCDC83B.Up2Date
