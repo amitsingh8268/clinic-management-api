@@ -24,9 +24,9 @@ namespace ClinicManagement.Infrastructure.Security
             var cred = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
 
             var claims = new List<Claim> {
-            new Claim(JwtRegisteredClaimNames.Sub, user.Id.ToString()),
-            new Claim(ClaimTypes.Name, user.Username),
-            new Claim(ClaimTypes.Role, user.Role ?? "User")
+            new Claim(JwtRegisteredClaimNames.Sub, user.UserId.ToString()),
+            new Claim(ClaimTypes.Name, user.Email),
+            new Claim(ClaimTypes.Role, user.RoleId.ToString())
         };
             var expires = DateTime.UtcNow.AddMinutes(double.Parse(jwt["AccessTokenExpirationMinutes"]));
             var token = new JwtSecurityToken(jwt["Issuer"], jwt["Audience"], claims, expires: expires, signingCredentials: cred);

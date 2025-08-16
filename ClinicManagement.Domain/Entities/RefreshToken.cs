@@ -9,6 +9,6 @@
         public DateTime? Revoked { get; set; }
         public int UserId { get; set; }
         public User? User { get; set; }
-        public bool IsActive => Revoked == null && DateTime.UtcNow < Expires;
+        public bool IsActive { get; set; }
     }
 }

@@ -1,11 +1,1 @@
-{
-  "Version": 1,
-  "Hash": "58hJORu/Xa0oeELnmbRAzqrdai43tstQlEOIbj8dfnk=",
-  "Source": "clinic-management-api",
-  "BasePath": "_content/clinic-management-api",
-  "Mode": "Default",
-  "ManifestType": "Build",
-  "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": []
-}
+{"Version":1,"Hash":"jhabw2V9W5j0NK9B3xDzOJkrwV2ud34BmIMkFekaGvU=","Source":"clinic-management-api","BasePath":"_content/clinic-management-api","Mode":"Default","ManifestType":"Build","ReferencedProjectsConfiguration":[],"DiscoveryPatterns":[],"Assets":[],"Endpoints":[]}

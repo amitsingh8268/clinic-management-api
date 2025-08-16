@@ -2,19 +2,24 @@
 {
     public class User
     {
-        public int Id { get; set; }
-        public string? Username { get; set; } = null!;
+        public int UserId { get; set; }
+        public string? FirstName { get; set; } = null!;
+        public string? LastName { get; set; }
         public string? Email { get; set; } = null!;
-        public string? PasswordHash { get; set; } = null!;
-        public string? Role { get; set; } = "User";
-        public List<RefreshToken> RefreshTokens { get; set; } = new();
-        public void AddRefreshToken(RefreshToken token) => RefreshTokens.Add(token);
+        public string? HashedPassword { get; set; } = null!;
+        public int RoleId { get; set; }
+        public int HospitalId { get; set; }
+        public List<RefreshToken> RefreshToken { get; set; } = new();
+        public void AddRefreshToken(RefreshToken token) => RefreshToken.Add(token);
 
-        public void RevokeRefreshToken(string token)
+        public void RevokeRefreshToken(string tokenHash)
         {
-            var rt = RefreshTokens.FirstOrDefault(t => t.TokenHash == token);
+            var rt = RefreshToken.FirstOrDefault(t => t.TokenHash == tokenHash);
             if (rt != null)
+            {
                 rt.Revoked = DateTime.UtcNow;
+                rt.IsActive = false;
+            }
         }
     }
 }

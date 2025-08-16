@@ -14,17 +14,17 @@ namespace ClinicManagement.Infrastructure.Repositories
         }
         public async Task AddAsync(User user, CancellationToken ct = default)
         {
-            await _context.Users.AddAsync(user, ct);
+            await _context.User.AddAsync(user, ct);
         }
 
-        public Task<User?> GetByIdAsync(int id, CancellationToken ct = default)
+        public Task<User?> GetByIdAsync(int userId, CancellationToken ct = default)
         {
-            return _context.Users.Include(u => u.RefreshTokens).FirstOrDefaultAsync(u => u.Id == id, ct);
+            return _context.User.Include(u => u.RefreshToken).FirstOrDefaultAsync(u => u.UserId == userId, ct);
         }
 
-        public Task<User?> GetByUsernameAsync(string username, CancellationToken ct = default)
+        public Task<User?> GetByUsernameAsync(string email, CancellationToken ct = default)
         {
-           return _context.Users.Include(u => u.RefreshTokens).FirstOrDefaultAsync(u=> u.Username == username, ct);
+           return _context.User.Include(u => u.RefreshToken).FirstOrDefaultAsync(u=> u.Email == email, ct);
         }
 
         public Task SaveChangesAsync(CancellationToken ct = default)
@@ -34,7 +34,7 @@ namespace ClinicManagement.Infrastructure.Repositories
 
         public IEnumerable<User> GetAllAsync()
         {
-            return _context.Users.Include(u=> u.RefreshTokens);
+            return _context.User.Include(u=> u.RefreshToken);
         }
 
     }

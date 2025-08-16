@@ -1,14 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace ClinicManagement.Application.DTOs
+﻿namespace ClinicManagement.Application.DTOs
 {
     public class UserDto
     {
-        public string Username { get; set; } = null!;
+        public int UserId { get; set; }
         public string Email { get; set; } = null!;
+        public string Name { get; set; } = null!;
     }
 }

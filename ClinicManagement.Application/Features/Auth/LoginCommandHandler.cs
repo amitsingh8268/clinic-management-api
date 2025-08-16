@@ -18,28 +18,29 @@ namespace ClinicManagement.Application.Features
 
         public async Task<LoginResultDto> Handle(LoginCommand request, CancellationToken cancellationToken)
         {
-            var user = await _user.GetByUsernameAsync(request.Username, cancellationToken) 
+            var user = await _user.GetByUsernameAsync(request.email, cancellationToken) 
                 ??  throw new UnauthorizedAccessException("Invalid credentials");
 
-            if (!_hasher.Verify(user.PasswordHash, request.Password))
+            if (!_hasher.Verify(user.HashedPassword, request.Password))
               throw new UnauthorizedAccessException("Invalid credentials");
 
             var accessToken = _token.CreateAccessToken(user);
             var refreshToken = _token.GenerateRefreshToken();
             var hashed = _token.HashToken(refreshToken);
 
-            user.AddRefreshToken(new  RefreshToken
+            user.AddRefreshToken(new RefreshToken
             {
                 TokenHash = hashed,
                 Created = DateTime.UtcNow,
-                Expires = _token.GetRefreshTokenExpiry()
+                Expires = _token.GetRefreshTokenExpiry(),
+                IsActive = true
             });
             await _user.SaveChangesAsync(cancellationToken);
             return new LoginResultDto
             {
                 AccessToken = accessToken,
-                RefreshToken = refreshToken,
-                User = new DTOs.UserDto { Username = user.Username, Email = user.Email },
+                RefreshToken = hashed,
+                User = new UserDto { Email = user.Email, Name = user.FirstName +' '+ user.LastName, UserId = user.UserId },
             };
         }
     }

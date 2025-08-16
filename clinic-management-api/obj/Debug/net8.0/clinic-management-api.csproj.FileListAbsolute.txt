@@ -19,11 +19,6 @@ D:\application\clinic-management-api\clinic-management-api\obj\Debug\net8.0\clin
 D:\application\clinic-management-api\clinic-management-api\obj\Debug\net8.0\clinic-management-api.sourcelink.json
 D:\application\clinic-management-api\clinic-management-api\obj\Debug\net8.0\staticwebassets.build.json
 D:\application\clinic-management-api\clinic-management-api\obj\Debug\net8.0\staticwebassets.development.json
-D:\application\clinic-management-api\clinic-management-api\obj\Debug\net8.0\staticwebassets\msbuild.clinic-management-api.Microsoft.AspNetCore.StaticWebAssets.props
-D:\application\clinic-management-api\clinic-management-api\obj\Debug\net8.0\staticwebassets\msbuild.build.clinic-management-api.props
-D:\application\clinic-management-api\clinic-management-api\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.clinic-management-api.props
-D:\application\clinic-management-api\clinic-management-api\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.clinic-management-api.props
-D:\application\clinic-management-api\clinic-management-api\obj\Debug\net8.0\staticwebassets.pack.json
 D:\application\clinic-management-api\clinic-management-api\obj\Debug\net8.0\scopedcss\bundle\clinic-management-api.styles.css
 D:\application\clinic-management-api\clinic-management-api\obj\Debug\net8.0\clinic-m.21677E19.Up2Date
 D:\application\clinic-management-api\clinic-management-api\obj\Debug\net8.0\clinic-management-api.dll
@@ -94,3 +89,12 @@ D:\application\clinic-management-api\clinic-management-api\bin\Debug\net8.0\runt
 D:\application\clinic-management-api\clinic-management-api\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 D:\application\clinic-management-api\clinic-management-api\bin\Debug\net8.0\ClinicManagement.Infrastructure.dll
 D:\application\clinic-management-api\clinic-management-api\bin\Debug\net8.0\ClinicManagement.Infrastructure.pdb
+D:\application\clinic-management-api\clinic-management-api\obj\Debug\net8.0\rpswa.dswa.cache.json
+D:\application\clinic-management-api\clinic-management-api\bin\Debug\net8.0\clinic-management-api.staticwebassets.endpoints.json
+D:\application\clinic-management-api\clinic-management-api\obj\Debug\net8.0\rjimswa.dswa.cache.json
+D:\application\clinic-management-api\clinic-management-api\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+D:\application\clinic-management-api\clinic-management-api\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+D:\application\clinic-management-api\clinic-management-api\obj\Debug\net8.0\staticwebassets.build.json.cache
+D:\application\clinic-management-api\clinic-management-api\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\application\clinic-management-api\clinic-management-api\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+D:\application\clinic-management-api\clinic-management-api\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

@@ -3,5 +3,5 @@
     using ClinicManagement.Application.DTOs;
     using MediatR;
 
-    public record LoginCommand(string Username, string Password) : IRequest<LoginResultDto>;
+    public record LoginCommand(string email, string Password) : IRequest<LoginResultDto>;
 }

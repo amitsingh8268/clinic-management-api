@@ -2,9 +2,8 @@
 using ClinicManagement.Application.Interfaces;
 using ClinicManagement.Domain.Entities;
 using MediatR;
-using System.Linq;
 
-namespace ClinicManagement.Application.Features.Auth
+namespace ClinicManagement.Application.Features
 {
     public class RefreshTokenCommandHandler : IRequestHandler<RefreshTokenCommand, AuthResponseDto>
     {
@@ -20,7 +19,7 @@ namespace ClinicManagement.Application.Features.Auth
         public async Task<AuthResponseDto> Handle(RefreshTokenCommand request, CancellationToken cancellationToken)
         {
             var user = _user.GetAllAsync().FirstOrDefault(u =>
-                u.RefreshTokens.Any(rt => rt.TokenHash == request.Token && rt.Revoked != null && rt.Expires > DateTime.UtcNow));
+                u.RefreshToken.Any(rt => rt.TokenHash == request.Token && rt.Revoked == null && rt.Expires > DateTime.UtcNow));
 
             if (user is null)
                 throw new UnauthorizedAccessException("Invalid refresh token");
