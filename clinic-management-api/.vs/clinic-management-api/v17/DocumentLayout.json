@@ -36,8 +36,7 @@
               "RelativeToolTip": "..\\ClinicManagement.Application\\Features\\Auth\\LogoutCommand.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-16T18:33:59.989Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-16T18:33:59.989Z"
             },
             {
               "$type": "Document",
@@ -62,8 +61,7 @@
               "RelativeToolTip": "Controllers\\AuthController.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAQwCQAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-16T18:11:02.914Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-16T18:11:02.914Z"
             }
           ]
         }
